@@ -18,8 +18,4 @@ Describe 'Get-AzCdnLogAnalyticWafLogAnalyticRanking' {
     It 'Get' -skip {
         { throw [System.NotImplementedException] } | Should -Not -Throw
     }
-
-    It 'GetViaIdentity' -skip {
-        { throw [System.NotImplementedException] } | Should -Not -Throw
-    }
 }

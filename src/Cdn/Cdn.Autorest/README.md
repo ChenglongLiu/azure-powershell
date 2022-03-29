@@ -110,6 +110,11 @@ directive:
   - where:
       verb: Set
     remove: true
+  # Remove GetViaIdentity of LogAnalytic* cmdlets
+  - where:
+      variant: ^GetViaIdentity$
+      subject: ^LogAnalytic.*$
+    remove: true
 
   # Hide Cdn profile
   - where:
