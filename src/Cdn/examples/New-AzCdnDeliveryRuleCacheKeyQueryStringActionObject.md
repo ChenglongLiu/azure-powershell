@@ -9,4 +9,4 @@ Name
 CacheKeyQueryString
 ```
 
-
+Create an in-memory object for DeliveryRuleCacheKeyQueryStringAction

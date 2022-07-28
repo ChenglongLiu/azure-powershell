@@ -1,4 +1,4 @@
-### Example 1: Create an in-memory object for AzureCDN DeliveryRuleCacheExpirationAction
+### Example 1: Create an in-memory object for AzureCDNDeliveryRuleCacheExpirationAction
 ```powershell
 New-AzCdnDeliveryRuleCacheExpirationActionObject -Name CacheExpiration -ParameterCacheBehavior SetIfMissing -ParameterCacheDuration 0.00:30:00
 ```
@@ -9,6 +9,7 @@ Name
 CacheExpiration
 ```
 
+Create an in-memory object for AzureCDNDeliveryRuleCacheExpirationAction
 
 
 

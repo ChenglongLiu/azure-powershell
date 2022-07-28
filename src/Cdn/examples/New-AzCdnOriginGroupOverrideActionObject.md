@@ -8,3 +8,5 @@ Name
 ----
 OriginGroupOverride
 ```
+
+Create an in-memory object for OriginGroupOverrideAction
